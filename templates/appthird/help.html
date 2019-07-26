@@ -1,0 +1,18 @@
+{% load staticfiles %}
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'css/mystyle.css' %}">
+    <title>Help project with image</title>
+</head>
+<body>
+
+<h1>This is a Django picture, the movie!</h1>
+<img src="{% static 'images/django.jpeg' %}" alt="If you see this, something went wrong ">
+<p>And this is something from appthird views logic:</p>
+<p><em>{{ insert_me }}</em></p>
+</body>
+</html>

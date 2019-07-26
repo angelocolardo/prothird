@@ -1,0 +1,23 @@
+h1{
+    color: blue;
+    margin-left: 100px;
+}
+
+p{
+    color: red;
+    margin-left: 100px;
+}
+
+p:hover{
+    color: blue;
+}
+body{
+    position:relative
+}
+img{
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    position: absolute;
+    left: 300px;
+}
